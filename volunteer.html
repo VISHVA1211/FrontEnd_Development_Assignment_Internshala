@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Volunteer | Basti Ki Pathshala</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      color: #fff;
+    }
+
+    header {
+      background-color: #111;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      color: #ffd700;
+      font-size: 32px;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #ffd700;
+    }
+
+    .form-section {
+      background: url("Volunteer.jpg") no-repeat center center/cover;
+      min-height: 100vh;
+      padding: 60px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .form-container {
+      background-color: rgba(0, 0, 0, 0.8);
+      padding: 30px 40px;
+      border-radius: 12px;
+      max-width: 500px;
+      width: 100%;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    }
+
+    .form-container h2 {
+      margin-bottom: 20px;
+      text-align: center;
+      color: #ffd700;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: 500;
+    }
+
+    .form-group input,
+    .form-group textarea {
+      width: 100%;
+      padding: 10px;
+      border-radius: 6px;
+      border: none;
+      outline: none;
+      font-size: 16px;
+    }
+
+    .form-group textarea {
+      resize: vertical;
+      min-height: 80px;
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      font-size: 16px;
+      background-color: #ff9900;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #ffae42;
+    }
+
+    @media (max-width: 600px) {
+      .form-container {
+        padding: 25px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Basti Ki Pathshala</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="US.html">About Us</a>
+      <a href="volunteer.html">Volunteer</a>
+    </nav>
+  </header>
+
+  <section class="form-section">
+    <div class="form-container">
+      <h2>Become a Volunteer</h2>
+      <form action="#" method="post">
+        <div class="form-group">
+          <label for="name">Full Name *</label>
+          <input type="text" id="name" name="name" placeholder="Enter your full name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email ID *</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email address" required />
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number *</label>
+          <input type="tel" id="phone" name="phone" placeholder="Enter your contact number" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Why do you want to volunteer?</label>
+          <textarea id="message" name="message" placeholder="Tell us a little about your motivation..." required></textarea>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </section>
+
+</body>
+</html>
