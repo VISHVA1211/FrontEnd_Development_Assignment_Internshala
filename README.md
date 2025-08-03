@@ -1,4 +1,4 @@
-# FrontEnd_Development_Assignment_Internshala[README.md](https://github.com/user-attachments/files/21566088/README.md)
+[README.md]
 # 🌟 Basti Ki Pathshala - Empowering Through Education
 
 **Basti Ki Pathshala** is a web-based platform aimed at providing **free education and volunteer support** to underprivileged children in slum areas. This site is designed with engaging visuals, smooth animations, and a user-friendly layout to encourage community participation.
